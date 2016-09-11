@@ -1,0 +1,208 @@
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
+    border-radius: 2px;
+    //
+    // position: relative;
+    // display: inline-block;
+    // border-radius: 2px;
+    // background-color: #fff;
+    // box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    // transition: all 0.3s ease-in-out;
+    // &:after {
+    //   content: '';
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    //   opacity: 0;
+    //   border-radius: 5px;
+    //   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    //   transition: opacity 0.3s ease-in-out;
+    // }
+    // /* Scale up the box */
+    // &:hover {
+    //   transform: scale(1.07, 1.07);
+    // }
+
+    // /* Fade in the pseudo-element with the bigger shadow */
+    // &:hover:after {
+    //   opacity: 1;
+    // }
+}
+
+.card-image {
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.card-content,
+.card-action {
+    padding: 15px;
+    p {
+        margin: 0;
+        font-size: 14px;
+    }
+}
+
+.card-content {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    position: relative;
+    &:after {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 40px;
+        background-color: white;
+        z-index: 10;
+        content: "";
+        top: -8px;
+        @include transform(rotate(45deg));
+        border-top: 1px solid rgba(160, 160, 160, 0.2);
+        border-left: 1px solid rgba(160, 160, 160, 0.2);
+    }
+}
+
+.card-action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+}
+
+.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card-panel {
+    padding: 20px;
+    border-radius: 2px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.about img.img-responsive {
+    width: 100%;
+}
+
+.img-thumbnail {
+    padding: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+
+.comments ul.firstcomment {
+    margin-bottom: 25px;
+}
+
+.singleimg {
+    margin: -100px 0 5px;
+    width: 100%;
+}
+
+.form-allowed-tags {
+    display: none;
+}
+
+.img-space {
+    margin: 10px 0 15px;
+}
+
+.img-space-right {
+    margin: 0 15px 15px 0;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+
+/* background setup */
+
+.background {
+    background-repeat: no-repeat;
+    /* custom background-position */
+    background-position: 50% 50%;
+    /* ie8- graceful degradation */
+    background-position: 50% 50%9 !important;
+    background-size: cover !important;
+}
+
+.fullscreen,
+.content-a {
+    width: 100%;
+    min-height: 100%;
+}
+
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* content centering styles */
+
+.content-a {
+    display: table;
+}
+
+.content-b {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.overflow {
+    overflow: hidden;
+    height: 600px;
+    margin-bottom: 10px;
+    .img-thumbnail {
+        @media only screen and (min-width: 320px) {
+            margin-top: 0;
+        }
+        @media only screen and (min-width: 480px) {
+            margin-top: -200px;
+        }
+        @media only screen and (min-width: 768px) {
+            margin-top: -400px;
+        }
+    }
+}
+
+.wp-video {
+    margin: 0 auto;
+}

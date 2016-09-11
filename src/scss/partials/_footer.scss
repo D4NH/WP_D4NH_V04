@@ -1,0 +1,51 @@
+.footer {
+  border-top: 1px solid #dddddd;
+  padding: 15px 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 11px;
+  a {
+    color: white;
+    &:first-of-type {
+      margin-left: 10px;
+    }
+    &:hover { color: #263238; }
+  }
+}
+
+.footernav {
+  display: none;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 -3px 10px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 -3px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 -3px 10px 0 rgba(0,0,0,0.12);
+  &.shownav {
+    @media only screen and (max-width : 768px) {
+      display: block;
+    }
+  }
+  .justify {
+    float: none;
+    text-align: center;
+    display: table;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    li {
+      padding: 14px;
+      float: none;
+      display: table-cell;
+      a {
+        display: block;
+        line-height: 20px;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+

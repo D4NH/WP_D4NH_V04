@@ -1,0 +1,8 @@
+.gradient {
+	float: none !important;
+}
+
+.gradient:before {
+    position: relative !important;
+    background: none  !important;
+}

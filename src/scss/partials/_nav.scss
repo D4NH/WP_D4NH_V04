@@ -1,0 +1,42 @@
+.navbar {
+  &.black {
+    background-color: rgba(255,255,255, 0.95);
+    border: none;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    .navbar-nav > li > a, .navbar-brand i, .navbar-header .navbar-toggle i { color: black; }
+  }
+    background: none;
+    border: none;
+    .navbar-brand i {
+      margin-left: 15px;
+      color: white;
+      @media only screen and (max-width : 768px) {
+        margin-top: 7px;
+        margin-left: 5px;
+      }
+      &:hover {
+        color: $hover-color;
+      }
+    }
+    .navbar-nav > li > a {
+      color: white;
+      font-size: 12px;
+      &:hover {
+        color: $hover-color;
+      }
+    }
+}
+
+.navbar-default .navbar-toggle {
+  color: white;
+  border: none;
+  &:hover, &:focus {
+    background: none;
+  }
+}
+
+// .current_page_parent, .current-menu-item, .current-page-ancestor {
+//   background-color: #ECEFF1;
+// }
