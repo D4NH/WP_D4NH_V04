@@ -6,7 +6,7 @@
             <div class="col-md-12">
 
               <!-- footer -->
-              <footer role="contentinfo">
+              <footer>
 
                 <!-- copyright -->
                 <small class="copyright">
