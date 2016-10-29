@@ -49,14 +49,14 @@
       </div>
       <div class="row other">
         <div class="col-md-4">
-            <a class="gradient" href="https://mijn.overheid.nl/" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/mijnoverheid.jpg" alt="MijnOverheid"></a>
-            <div class="subsection">
-              <div class="subtitle">MijnOverheid</div>
-              <div class="category"><i class="fa fa-cogs"></i> VueJS</div>
-              <div class="clock"><i class="fa fa-archive"></i> Web Development</div>
-              <div class="clearfix"></div>
-            </div>
+          <a class="hovericon" href="https://mijn.overheid.nl/" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/mijnoverheid.jpg" alt="MijnOverheid"></a>
+          <div class="subsection">
+            <div class="subtitle">MijnOverheid</div>
+            <div class="category"><i class="fa fa-cogs"></i> VueJS</div>
+            <div class="clock"><i class="fa fa-archive"></i> Web Development</div>
+            <div class="clearfix"></div>
           </div>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -65,7 +65,7 @@
       </div>
       <div class="row other">
         <div class="col-md-4">
-          <a class="gradient" href="https://www.monuta.nl/verzekeringsmodule/" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/monuta.jpg" alt="Monuta Verzekeringsmodule"></a>
+          <a class="hovericon" href="https://www.monuta.nl/verzekeringsmodule/" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/monuta.jpg" alt="Monuta Verzekeringsmodule"></a>
           <div class="subsection">
             <div class="subtitle">Monuta Verzekeringsmodule</div>
             <div class="category"><i class="fa fa-cogs"></i> AngularJS</div>
@@ -75,7 +75,7 @@
         </div>
 
         <div class="col-md-4">
-          <a class="gradient" href="https://vandijk.nl/webshop" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/vandijk.jpg" alt="Van Dijk Webshop"></a>
+          <a class="hovericon" href="https://vandijk.nl/webshop" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/vandijk.jpg" alt="Van Dijk Webshop"></a>
           <div class="subsection">
             <div class="subtitle">Van Dijk Webshop</div>
             <div class="category"><i class="fa fa-cogs"></i> AngularJS</div>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="col-md-4">
-          <a class="gradient" href="https://amsterdam.luminis.eu" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/luminisamsterdam.jpg" alt="Luminis Amsterdam"></a>
+          <a class="hovericon" href="https://amsterdam.luminis.eu" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/luminisamsterdam.jpg" alt="Luminis Amsterdam"></a>
           <div class="subsection">
             <div class="subtitle">Luminis Amsterdam</div>
             <div class="category"><i class="fa fa-cogs"></i> Wordpress</div>
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <a class="gradient" href="https://devcon.luminis.eu" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/devcon.jpg" alt="DevCon Luminis"></a>
+          <a class="hovericon" href="https://devcon.luminis.eu" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/devcon.jpg" alt="DevCon Luminis"></a>
           <div class="subsection">
             <div class="subtitle">DevCon Luminis</div>
             <div class="category"><i class="fa fa-cogs"></i> Wordpress</div>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="col-md-4">
-          <a class="gradient" href="http://www.proudteachers.nl" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/proudteachers.jpg" alt="Proud Teachers"></a>
+          <a class="hovericon" href="http://www.proudteachers.nl" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/proudteachers.jpg" alt="Proud Teachers"></a>
           <div class="subsection">
             <div class="subtitle">Proud Teachers</div>
             <div class="category"><i class="fa fa-cogs"></i> Wordpress</div>
@@ -114,7 +114,7 @@
         </div>
 
         <div class="col-md-4">
-          <a class="gradient" href="https://academy.luminis.eu/" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/training.jpg" alt="Luminis Academy"></a>
+          <a class="hovericon" href="https://academy.luminis.eu/" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/training.jpg" alt="Luminis Academy"></a>
           <div class="subsection">
             <div class="subtitle">Luminis Academy</div>
             <div class="category"><i class="fa fa-cogs"></i> Wordpress</div>
@@ -131,7 +131,7 @@
       </div>
       <div class="row other">
         <div class="col-md-4">
-          <a class="gradient" href="https://acties.essent.nl/bespaarcoach/mediamarkt/index.html" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/bespaarcoach.jpg" alt="Bespaarcoach"></a>
+          <a class="hovericon" href="https://acties.essent.nl/bespaarcoach/mediamarkt/index.html" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/bespaarcoach.jpg" alt="Bespaarcoach"></a>
           <div class="subsection">
             <div class="subtitle">Bespaarcoach</div>
             <div class="category"><i class="fa fa-cogs"></i> JQuery</div>
@@ -141,7 +141,7 @@
         </div>
 
         <div class="col-md-4">
-          <a class="gradient" href="http://bradfrostweb.com/demo/ish/?url=http%3A%2F%2Fmobiel.essent.nl#s" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/essentmobiel.jpg" alt="Mobiele versie Essent.nl"></a>
+          <a class="hovericon" href="http://bradfrostweb.com/demo/ish/?url=http%3A%2F%2Fmobiel.essent.nl#s" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/essentmobiel.jpg" alt="Mobiele versie Essent.nl"></a>
           <div class="subsection">
             <div class="subtitle">Mobiele versie Essent.nl</div>
             <div class="category"><i class="fa fa-cogs"></i> Mobile First</div>
@@ -151,7 +151,7 @@
         </div>
 
         <div class="col-md-4">
-          <a class="gradient" href="https://acties.essent.nl/bespaartips/" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/bespaartips.jpg" alt="Bespaartips van Essent"></a>
+          <a class="hovericon" href="https://acties.essent.nl/bespaartips/" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/bespaartips.jpg" alt="Bespaartips van Essent"></a>
           <div class="subsection">
             <div class="subtitle">Bespaartips van Essent</div>
             <div class="category"><i class="fa fa-cogs"></i> JQuery</div>
@@ -168,7 +168,7 @@
       </div>
       <div class="row other">
         <div class="col-md-4">
-          <a class="gradient" href="https://www.philips.nl/e/kitchen/home.html" target="_blank"><img class="afbeelding shadow img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/philipskitchen.jpg" alt="MyKitchen Philips"></a>
+          <a class="hovericon" href="https://www.philips.nl/e/kitchen/home.html" target="_blank"><img class="afbeelding img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/webdesign/philipskitchen.jpg" alt="MyKitchen Philips"></a>
           <div class="subsection">
           <div class="subtitle">MyKitchen Philips</div>
             <div class="category"><i class="fa fa-cogs"></i> ATG Content Management System</div>
