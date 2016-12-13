@@ -51,18 +51,17 @@
                 $the_query->the_post(); ?>
                 <div class="col-md-4">
 
-                  <a class="gradient" href="<?php echo get_permalink(); ?>">
+                  <a class="hovericon" href="<?php echo get_permalink(); ?>">
+
                      <?php if ( has_post_thumbnail() ) {
-                       the_post_thumbnail( 'large', array( 'class' => 'img-responsive afbeelding shadow' ) );
+                       the_post_thumbnail( 'large', array( 'class' => 'img-responsive afbeelding' ) );
                      } ?>
                   </a>
-                  <div class="subtitle ellipsis">
-                    <span><?php echo get_the_title(); ?></span>
-                  </div>
 
                   <div class="subsection">
+                    <div class="subtitle ellipsis"><?php echo get_the_title(); ?></div>
                     <div class="category"><i class="fa fa-clock-o"></i> Oktober 2015</div>
-                    <div class="clock"><i class="fa fa-plane"></i> Indonesie</div>
+                    <div class="clock"><i class="fa fa-plane"></i> Reizen</div>
                     <div class="clearfix"></div>
                   </div>
                 </div>

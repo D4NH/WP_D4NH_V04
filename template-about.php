@@ -48,13 +48,13 @@
       </div>
       <div class="row other">
         <div class="col-md-offset-2 col-md-4">
-          <img class="afbeelding shadow img-responsive" src="http://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg" alt="Danh Nguyen">
+          <img class="afbeelding shadow img-responsive" src="https://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg" alt="Danh Nguyen">
         </div>
         <div class="col-md-4">
-          <img class="afbeelding shadow img-responsive" src="http://www.danhnguyen.nl/wp-content/uploads/DSC06918-1024x575.jpg" alt="Danh Nguyen">
+          <img class="afbeelding shadow img-responsive" src="https://www.danhnguyen.nl/wp-content/uploads/DSC06918-1024x575.jpg" alt="Danh Nguyen">
         </div>
       </div>
-      <div class="row">
+      <div class="row other">
         <div class="col-md-12">
           <h2 class="sectiontitle">Expertise</h2>
         </div>
@@ -64,7 +64,7 @@
           <?php echo types_render_field("expertise", array("output"=>"html")); ?>
         </div>
       </div>
-      <div class="row">
+      <div class="row other">
         <div class="col-md-12">
           <h2 class="sectiontitle">Technieken</h2>
         </div>
@@ -74,7 +74,7 @@
           <?php echo types_render_field("technieken", array("output"=>"html")); ?>
         </div>
       </div>
-      <div class="row">
+      <div class="row other">
         <div class="col-md-offset-2 col-md-4">
           <h2 class="sectiontitle">Werkervaring</h2>
           <?php echo types_render_field("werkervaring", array("output"=>"html")); ?>

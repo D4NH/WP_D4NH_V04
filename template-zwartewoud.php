@@ -1,4 +1,4 @@
-<?php /* Template Name: Japan Template */ get_header(); ?>
+<?php /* Template Name: Zwarte Woud Template */ get_header(); ?>
 
   <?php
       $img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full");
@@ -8,8 +8,8 @@
     <div class="fullscreen background" style="background-image:url('<?php echo $img ?>');">
         <div class="content-a">
             <div class="content-b">
-                <h1>Japan 2014</h1>
-                <h2>Tokyo, Kyoto, Osaka</h2>
+                <h1>Zwarte Woud 2016</h1>
+                <h2>Duitsland</h2>
                 <a href="#intro" title="Lees meer" class="jump"><i class="fa fa-angle-down"></i></a>
             </div>
         </div>
@@ -22,7 +22,7 @@
           <div class="col-md-offset-3 col-md-6">
             <?php
               // The Query
-              $the_query = new WP_Query( array( 'page_id' => 68 ) );
+              $the_query = new WP_Query( array( 'page_id' => 1626 ) );
 
               // The Loop
               if ( $the_query->have_posts() ) {
@@ -43,7 +43,7 @@
             <?php
 
               // The Query
-              $the_query = new WP_Query( array( 'category_name' => 'japan-2014', 'posts_per_page' => -1 ) );
+              $the_query = new WP_Query( array( 'category_name' => 'zwartewoud-2016', 'posts_per_page' => -1 ) );
 
               // The Loop
               if ( $the_query->have_posts() ) {
@@ -60,7 +60,7 @@
 
                     <div class="subsection">
                       <div class="subtitle ellipsis"><?php echo get_the_title(); ?></div>
-                      <div class="category"><i class="fa fa-clock-o"></i> September 2014</div>
+                      <div class="category"><i class="fa fa-clock-o"></i> <?php echo date("F Y", strtotime(get_post($_GET['p_id'])->post_date)); ?></div>
                       <div class="clock"><i class="fa fa-plane"></i> Reizen</div>
                       <div class="clearfix"></div>
                     </div>
